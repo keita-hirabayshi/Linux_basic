@@ -1,0 +1,33 @@
+移動
+command f   一文字前へ
+command b   一文字後ろへ
+command a   行の先頭に移動
+command e   行の最後に移動
+esc 離して f    一単語次へ移動
+esc 離して b    一単語前へ移動
+
+編集
+command h   カーソルの左一文字削除
+command d   カーソル部を一文字削除
+command w   カーソル部の単語を削除
+command u   カーソル部から行頭を削除
+command k   カーソル部から行末を削除
+command y   最後に削除した内容を挿入
+
+トラブル対応
+command c   実行中のコマンドを強制終了
+command l   外面の消去。文字化けした時の対処法
+command s   画面ロック
+command q   画面ロックの解除
+
+補完・コマンド履歴
+tab     コマンドやパスの補完(途中まで入力して保管できる)
+command p  or ↑キー 1つ前の履歴を見る
+command n  or ↓キー 1つ後ろの履歴を見る
+commnad r   コマンド履歴のインクリメンタル検索(文字列から検索可能)
+    command r 1つの前の検索結果へ移動
+    enter       現在の検索結果を実行
+    Esc         現在の検索結果を残したままコマンドラインへ移動
+    command g   検索結果を破棄し、コマンドラインへ移動
+
+これらは時間短縮のため
